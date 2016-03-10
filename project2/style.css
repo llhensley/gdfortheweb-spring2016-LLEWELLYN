@@ -8,6 +8,11 @@ h1 {
 	color: #808080;
 }
 
+h2 {
+	color: #696969;
+	text-decoration: none;
+}
+
 .sans {
 	font-family: sans-serif;
 	letter-spacing: 2px;
@@ -39,7 +44,7 @@ h1 {
 	color: #ff69b4;
 }
 
-.is-night {
-	background-color: black;
+.gray {
+	background-color: #696969;
 }
 
