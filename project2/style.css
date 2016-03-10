@@ -23,6 +23,8 @@ h1 {
 	color: #b8860b;
 }
 
+h1:link:hover { outline: dotted red; }
+
 .sans2 {
 	font-family: sans-serif;
 	letter-spacing: 2px;
