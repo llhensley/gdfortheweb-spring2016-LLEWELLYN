@@ -1,0 +1,59 @@
+css format
+
+body{
+	property: value;
+
+}
+
+set general styles on general tags, and more specific styles on specific tags
+
+the most specific tag in a sequence will take priority
+
+style sheet css is > inline css
+
+the style sheet can affect many html files at the same time
+
+class selectors
+classes
+class names cannot contain spaces (use hyphens or underscores)
+
+pseudo elements
+hover
+
+cmd option f = find and replace in one document
+cmd shift f = 
+
+think about a wireframe; how is it organized
+think of structure first
+how little css can I write that is beautiful; economy and concision; typeface, typesetting; one fancy thing;
+
+adjust letterspacing, line spacing
+
+fonts: work with websafe fonts; play with default web typography; georgia, courier, helvetica, verdana, courier new, arial
+
+background-image: url("bg.jpg")
+
+EXAMPLES
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-night">
+	<h1 class="sans">Act One. Cathy's Account.</h1>
+	<p class="no-indent sans">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
