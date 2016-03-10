@@ -1,7 +1,8 @@
-/*body {
+body {
 	background-color: black;
 	color: pink;
-	width: 500px;*/
+	width: 500px;
+}
 
 h1 {
 	color: #808080;
@@ -19,7 +20,7 @@ h2 {
 	font-size: 100px;
 }
 
-.sans1 {
+body.sans1 {
 	font-family: sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
