@@ -9,7 +9,7 @@ h1 {
 }
 
 h1:hover {
-	background-color: pink;
+	background-color: #fff8dc;
 }
 
 .sans {
@@ -20,6 +20,22 @@ h1:hover {
 }
 
 .sans1 {
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 100px;
+	color: #6495ed;
+}
+
+.sans2 {
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 100px;
+	color: #5f9ea0;
+}
+
+.sans3 {
 	font-family: sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
