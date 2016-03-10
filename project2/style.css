@@ -23,7 +23,9 @@ h1 {
 	color: #b8860b;
 }
 
-h1:hover { outline: dotted red; }
+h1:hover { 
+	outline: dotted red; 
+}
 
 .sans2 {
 	font-family: sans-serif;
