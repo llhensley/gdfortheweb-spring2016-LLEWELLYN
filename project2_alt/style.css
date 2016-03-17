@@ -174,7 +174,7 @@ h2, a {
 .square_beige:hover {
 	width: 200px;
 	height: 200px;
-	background: beige;
+	background: #ffd700;
 	float: left;
 	margin-top: 10px;
 	margin-left: 10px;"
@@ -194,7 +194,7 @@ h2, a {
 	z-index: 3;
 	width: 200px;
 	height: 200px;
-	background: teal;
+	background: #5f9ea0;
 	float: left;
 	margin-top: 10px;
 	margin-left: 10px;"
