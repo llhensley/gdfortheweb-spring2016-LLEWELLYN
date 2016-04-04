@@ -19,8 +19,8 @@
 }
 
 div {
-	width: 100px;
-	height: 100px;
+	width: 50%;
+	height: 50%;
 	background: red;
 	float: left;
 	border: dotted 10px white;
@@ -47,10 +47,6 @@ h2 {
     line-height: 125%;
 }
 
-.pink{
-    color: 002E69;
-}
-
 a {
     color: white;
     font-size: 100px;
@@ -59,6 +55,8 @@ a {
     text-decoration-color: white;
     }
 
+/*
+BACKGROUND VIDEO
 video#bgvid { 
     position: fixed;
     top: 50%;
@@ -74,4 +72,4 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
     background: url(keetra.m4v) no-repeat;
     background-size: cover; 
-}
+}*/
