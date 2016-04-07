@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+div {
+	width: 49%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	margin: none;
+}
+
+.div1 {
+	width: 50%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	margin: none;
+	z-index: 0;
+}
+
+.div1text {
+	width: 49%;
+	height: 49vh;
+	float: left;
+	position: fixed;
+	z-index: 1;
+	font-size: 6vw;
+	font-family: helvetica;
+	letter-spacing: 6px;
+	margin-top: 5%;
+	margin-right: 0px;
+	margin-left: 1px;
+	margin-bottom: -2px;
+	text-align: center;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.div2 {
+	width: 50%;
+	height: 50vh;
+	float: right;
+	overflow: hidden;
+	position: fixed;
+	margin-top: 0;
+	margin-left: 50%;
+}
+
+.div2text {
+	width: 49%;
+	height: 49vh;
+	float: right;
+	position: fixed;
+	z-index: 1;
+	font-size: 6vw;
+	font-family: helvetica;
+	letter-spacing: 5px;
+	margin-top: 5%;
+	margin-right: 0px;
+	margin-left: 50%;
+	margin-bottom: -2px;
+	text-align: center;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.div3 {
+	width: 50%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	margin-top: 50vh;
+	margin-left: 0;
+}
+
+.div3text {
+	width: 46%;
+	height: 49vh;
+	float: left;
+	position: fixed;
+	z-index: 1;
+	font-size: 3vw;
+	font-family: helvetica;
+	letter-spacing: 1.5px;
+	line-height: 111%;
+	margin-top: 53vh;
+	margin-right: 0px;
+	margin-left: 18px;
+	margin-bottom: -2px;
+	text-align: left;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.div4 {
+	width: 50%;
+	height: 50vh;
+	float: right;
+	overflow: hidden;
+	position: fixed;
+	margin-top: 50vh;
+	margin-left: 50%;
+}
+
+.hello {
+	font-size: 10vw;
+	font-family: helvetica;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+/*	top: 40%;*/
+	margin: 0 auto;
+	text-align: center;
+	overflow: visible;
+	color: whitesmoke;
+}
+
+.bigdiv {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/*video {
+	height: 100%;
+}*/
+
+/*span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+	opacity: 1;
+}*/
