@@ -16,53 +16,45 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+/*	margin: 0;
+*/	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
-/*table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}*/
 
-div {
-	width: 49%;
-	height: 50vh;
+.bigdiv {
+	width: 100%;
+	height: 100%;
 	float: left;
 	overflow: hidden;
-	position: fixed;
-	margin: none;
-}
-
-.parent1 {
-	width: 49%;
-	height: 50vh;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	margin: none;
+	margin: 0;
+	padding: 0;
 }
 
 .div1 {
@@ -75,25 +67,48 @@ div {
 	z-index: 0;
 }
 
-.div1text {
+.bigtext {
 	width: 90%;
 	height: 90%;
 	float: left;
 	position: absolute;
+	z-index: 1;
+	font-family: helvetica;
+	text-align: center;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.smalltext {
+	width: 49%;
+	height: 49vh;
+	float: right;
+	position: absolute;
+	z-index: 1;
+	font-family: helvetica;
+	text-align: center;
+	overflow: hidden;
+	color: whitesmoke;
+}
+
+.parent1 {
+	width: 49%;
+	height: 50vh;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: none;
+}
+
+.div1text {
 	top:10%;
 	left: 13%;
-/*	transform: translate(-10%, -10%);
-*/	z-index: 1;
 	font-size: 9vw;
-	font-family: helvetica;
 	letter-spacing: 6px;
 	margin-top: 5%;
 	margin-right: 10%;
 	margin-left: -9%;
 	margin-bottom: 6%;
-	text-align: center;
-	overflow: hidden;
-	color: whitesmoke;
 }
 
 .parent2 {
@@ -116,11 +131,6 @@ div {
 }
 
 .div2text {
-	width: 49%;
-	height: 49vh;
-	float: right;
-	position: absolute;
-	z-index: 1;
 	font-size: 4vw;
 	font-family: helvetica;
 	letter-spacing: 5px;
@@ -208,52 +218,3 @@ div {
 	overflow: hidden;
 	color: whitesmoke;
 }
-
-.hello {
-	font-size: 10vw;
-	font-family: helvetica;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-/*	top: 40%;*/
-	margin: 0 auto;
-	text-align: center;
-	overflow: visible;
-	color: whitesmoke;
-}
-
-.bigdiv {
-	width: 100%;
-	height: 100%;
-	float: left;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-}
-
-/*video {
-	height: 100%;
-}*/
-
-/*span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 150px;
-  opacity: 0;
-}
-
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-span.text-content {
-	opacity: 1;
-}*/
