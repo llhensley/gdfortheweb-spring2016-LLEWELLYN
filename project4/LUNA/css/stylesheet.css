@@ -81,7 +81,7 @@ video {
 	margin-left: 2vw;
 	position: absolute;
 	overflow: hidden;
-	font-size: 8vw;
+	font-size: 7vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: whitesmoke;
@@ -99,7 +99,7 @@ video {
 	width: 47%;
 	position: absolute;
 	overflow: hidden;
-	font-size: 2.5vw;
+	font-size: 2.25vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: whitesmoke;
