@@ -29,11 +29,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-/*a {
+a {
 	color: whitesmoke;
 	text-decoration: none;
 }
-*/
+
+a.hover {
+	text-shadow: 0 0 10px whitesmoke;
+}
+
 body {
 	line-height: 1;
 }
