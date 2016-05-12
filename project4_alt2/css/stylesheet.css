@@ -91,13 +91,11 @@ div {
 	margin: none;
 	z-index: 0;
 	text-decoration: none;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 }
 
 img {
 	box-sizing: border-box;
-	width: 100%;
+	width: 110%;
 }
 
 .left {
@@ -110,14 +108,16 @@ img {
 
 .largetype {	
 	text-decoration: none;
-	margin-top: 2vh;
+	margin-top: 1vh;
 	margin-left: 2vw;
 	position: absolute;
 	overflow: hidden;
-	font-size: 7vw;
+	font-size: 6vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: black;
+	line-height: 115%;
+	font-weight: bold;
 }
 
 #largetype2 {
@@ -126,11 +126,12 @@ img {
 	margin-left: 52vw;	
 	position: absolute;
 	overflow: hidden;
-	font-size: 7vw;
+	font-size: 6vw;
 	font-family: Helvetica;
 	z-index: 1;
 	float: right;
 	color: black;
+	line-height: 115%;
 }
 
 #largetype3 {
@@ -139,21 +140,23 @@ img {
 	margin-left: 52vw;
 	position: absolute;
 	float: right;
-	font-size: 7vw;
+	font-size: 6vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: black;
+	line-height: 115%;
 }
 
 #largetype4 {
 	text-decoration: none;
 	margin-top: 52vh;
-	margin-left: 2vw;
+	margin-left: 4vw;
 	position: absolute;
 	overflow: hidden;
-	font-size: 7vw;
+	font-size: 6vw;
 	font-family: Helvetica;
 	z-index: 1;
+	line-height: 115%;
 }
 
 

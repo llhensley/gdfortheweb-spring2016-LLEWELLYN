@@ -29,6 +29,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: 0 0 10px red;
+}
+
 body {
 	line-height: 1;
 }
@@ -89,7 +98,7 @@ video {
 
 #largetype2 {
 	margin-top: 2vh;
-	margin-left: 51vw;	
+	margin-left: 52vw;	
 	float: right;
 }
 
@@ -109,26 +118,26 @@ video {
 }
 
 #largetype3 {
-	margin-top: 51vh;
-	margin-left: 51vw;
+	margin-top: 52vh;
+	margin-left: 52vw;
 	position: absolute;
 	float: right;
-	font-size: 8vw;
+	font-size: 7vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: whitesmoke;
 }
 
-.red {
-	background-color: #D40101;
+.green {
+	background-color: #008000;
 }
 
 .blue {
-	background-color: #09099A;
+	background-color: #000099;
 }
 
 .yellow {
-	background-color: #ECEC00;
+	background-color: #e6e600;
 }
 
 
