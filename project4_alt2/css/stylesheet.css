@@ -112,7 +112,7 @@ img {
 	margin-left: 2vw;
 	position: absolute;
 	overflow: hidden;
-	font-size: 6vw;
+	font-size: 5.5vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: white;
@@ -126,7 +126,7 @@ img {
 	margin-left: 52vw;	
 	position: absolute;
 	overflow: hidden;
-	font-size: 6vw;
+	font-size: 5.5vw;
 	font-family: Helvetica;
 	z-index: 1;
 	float: right;
@@ -140,7 +140,7 @@ img {
 	margin-left: 52vw;
 	position: absolute;
 	float: right;
-	font-size: 6vw;
+	font-size: 5.5vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: black;
@@ -150,10 +150,10 @@ img {
 #largetype4 {
 	text-decoration: none;
 	margin-top: 52vh;
-	margin-left: 4vw;
+	margin-left: 2vw;
 	position: absolute;
 	overflow: hidden;
-	font-size: 6vw;
+	font-size: 5.5vw;
 	font-family: Helvetica;
 	z-index: 1;
 	line-height: 115%;
