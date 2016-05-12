@@ -71,6 +71,11 @@ video {
 	height: 110%;
 }
 
+a.largetype2:hover {
+	text-shadow: 0 0 3px black;
+
+}
+
 .left {
 	float: left;
 }

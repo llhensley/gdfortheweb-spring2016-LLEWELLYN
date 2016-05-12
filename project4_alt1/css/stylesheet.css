@@ -40,11 +40,17 @@ footer, header, hgroup, menu, nav, section {
 	src: url("Reglo-Bold.otf");
 }*/
 
-a:link {
-	text-decoration: none;
+
+a.one:hover {
+	text-shadow: 0 0 3px black;
 }
 
-a.one:visited {
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
 	text-decoration: none;
 	color: black;
 }
