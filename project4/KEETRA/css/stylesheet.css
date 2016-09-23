@@ -29,6 +29,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+a.hover {
+	text-shadow: 0 0 10px whitesmoke;
+}
+
 body {
 	line-height: 1;
 }
@@ -63,6 +72,11 @@ div {
 	z-index: 0;
 }
 
+.blue {
+	background-color: #0039e6;
+	z-index: 0;
+}
+
 .left {
 	float: left;
 }
@@ -76,21 +90,22 @@ div {
 	margin-left: 2vw;
 	position: absolute;
 	overflow: hidden;
-	font-size: 8.5vw;
+	font-size: 7vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: whitesmoke;
+	letter-spacing: .5px;
 }
 
 #largetype2 {
-	margin-top: 2vh;
-	margin-left: 51vw;	
+	margin-left: 51.5vw;	
 	float: right;
+	letter-spacing: .5px;
 }
 
 #smalltype {
-	margin-top: 51.75vh;
-	margin-left: 2vw;
+	padding-top: 51.75vh;
+	padding-left: 52vw;
 	width: 44%;
 	position: absolute;
 	overflow: hidden;
@@ -99,18 +114,20 @@ div {
 	z-index: 1;
 	color: whitesmoke;
 	line-height: 1.35;
-
+	letter-spacing: .25px;
 }
 
 #largetype3 {
-	margin-top: 51vh;
-	margin-left: 51vw;
+	padding-top: 51vh;
+	padding-left: 2vw;
 	position: absolute;
 	float: right;
-	font-size: 8.5vw;
+	font-size: 7vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: whitesmoke;
+	letter-spacing: .5px;
+	line-height: 1.05;
 }
 
 

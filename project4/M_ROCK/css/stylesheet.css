@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -71,6 +72,14 @@ video {
 	height: 110%;
 }
 
+a {
+	color: whitesmoke;
+}
+
+a:hover {
+	text-shadow: 0 0 10px whitesmoke;
+}
+
 .left {
 	float: left;
 }
@@ -80,26 +89,26 @@ video {
 }
 
 .largetype {
-	margin-top: 2vh;
-	margin-left: 2vw;
+	padding-top: 2vw;
+	padding-left: 2vw;
 	position: absolute;
 	overflow: hidden;
 	font-size: 7vw;
 	font-family: Helvetica;
 	z-index: 1;
 	color: black;
+	letter-spacing: .5px;
 }
 
 #largetype2 {
-	margin-top: 2vh;
-	margin-left: 51vw;	
+	padding-left: 52vw;	
 	float: right;
 	color: whitesmoke;
 }
 
 #smalltype {
-	margin-top: 51.75vh;
-	margin-left: 2vw;
+	padding-top: 51.75vh;
+	padding-left: 2.5vw;
 	width: 44%;
 	position: absolute;
 	overflow: hidden;
@@ -108,7 +117,7 @@ video {
 	z-index: 1;
 	color: whitesmoke;
 	line-height: 1.35;
-
+	letter-spacing: .3px;
 }
 
 #largetype3 {
